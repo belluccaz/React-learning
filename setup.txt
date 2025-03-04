@@ -1,0 +1,11 @@
+Steps to create a React project in local envoirenment:
+
+1 - Create project folder;
+2 - Navigate into the folder via terminal;
+3 - Create react app:
+3.1 - npm create vite@latest my--react-app --template react;
+3.2 - 'y' to proceed (1st time);
+3.3 - Select configuration;
+3.4 - npm install;
+3.5 - npm run dev;
+
