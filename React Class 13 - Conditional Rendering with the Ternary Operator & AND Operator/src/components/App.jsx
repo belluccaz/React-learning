@@ -5,7 +5,6 @@ var isLoggedIn = false;
 
 const currentTime = new Date().getHours();
 
-function renderConditionally() {}
 
 function App() {
   return (

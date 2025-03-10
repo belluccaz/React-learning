@@ -1,0 +1,9 @@
+Nessa lição estamos introduzindo o conceito de estado para que haja interatividade em nosso aplicativo.
+
+Estamos fazendo com que nosso site possa ser atualizado dinamicamente, refletindo o estado atualizado.
+O estado vem do Hook "useState()" e essa função vem do módulo react. 
+Quando chamamos essa função pela primeira vez, podemos definir um valor inicial. 
+Em seguida, podemos usar esse valor dentro da nossa array desestruturada, que chamamos de 'count' nesse exemplo.
+Estamos colocando esse valor de contagem dentro de nosso h1, em seguida, acionamos o setCount, que é a função que atualizará o valor da contagem. 
+Fazemos isso quando o usuário clica em nosso botão de adição. E nós o definimos como o valor atual de count+1, de modo que ele aumenta em 1 a cada vez. 
+O contrário acontece com o botão de decréscimo, substituindo count por count - 1.
